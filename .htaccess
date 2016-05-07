@@ -1,0 +1,4 @@
+Options -Indexes
+IndexIgnore *
+RewriteEngine On
+RewriteRule ^(.*)/(.*)/(.*)/(.*)/(.*)$ index.php?w=$1&h=$2&bg_r=$3&bg_g=$4&bg_b=$5 [NC]
